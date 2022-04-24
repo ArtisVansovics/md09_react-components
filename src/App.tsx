@@ -57,6 +57,7 @@ const App = () => (
               id, text, done,
             }) => (
               <Task
+                key={id}
                 id={id}
                 text={text}
                 done={done}
@@ -75,6 +76,7 @@ const App = () => (
                 id, text, done,
               }) => (
                 <Task
+                  key={id}
                   id={id}
                   text={text}
                   done={done}
@@ -92,6 +94,7 @@ const App = () => (
                 id, title, description, backgroundColor, available,
               }) => (
                 <VegetableCard
+                  key={id}
                   id={id}
                   title={title}
                   description={description}
@@ -114,6 +117,7 @@ const App = () => (
                   id, title, description, backgroundColor, available,
                 }) => (
                   <VegetableCard
+                    key={id}
                     id={id}
                     title={title}
                     description={description}

@@ -1,10 +1,11 @@
 import React, { FC } from 'react';
 import './VegetableListSecond.scss';
+import VegetableListFirst from '../VegetableListFirst/VegetableListFirst';
 
 const VegetableListSecond:FC = ({ children }) => (
-  <div className="vegetable-list-second">
+  <VegetableListFirst>
     {children}
-  </div>
+  </VegetableListFirst>
 );
 
 export default VegetableListSecond;
