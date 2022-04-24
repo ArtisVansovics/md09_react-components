@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import './Task.scss';
 
-type TaskProps= {
+type TaskProps = {
   id: string
   text: string
   done: boolean
