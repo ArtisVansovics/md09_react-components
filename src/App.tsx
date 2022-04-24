@@ -22,7 +22,6 @@ const tasks = [
     done: true,
   },
 ];
-
 const vegetables = [
   {
     id: '1',

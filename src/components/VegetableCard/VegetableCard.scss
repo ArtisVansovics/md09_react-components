@@ -7,9 +7,10 @@
 }
 
 .vegetable-card__info {
+  position: relative;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
-  padding: 16px;
+  padding: 15px 60px 15px 15px;
   border-radius: 20px;
 }

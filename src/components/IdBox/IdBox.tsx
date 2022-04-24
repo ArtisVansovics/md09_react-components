@@ -6,7 +6,7 @@ type IdBoxProps = {
 }
 
 const IdBox:FC<IdBoxProps> = ({ id }) => (
-  <div className="IdBox">
+  <div className="id-box">
     {id}
   </div>
 );
