@@ -42,7 +42,19 @@ const App = () => (
       {/* Tasks filtered */}
       <div className="row">
         <div className="col-xs-12">
-          <div className="box" />
+          <div className="box">
+            {tasks
+              .filter(({ done }) => !done)
+              .map(({
+                id, text, done,
+              }) => (
+                <Task
+                  id={id}
+                  text={text}
+                  done={done}
+                />
+              ))}
+          </div>
         </div>
       </div>
       {/* VegetableListFirst */}

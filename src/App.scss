@@ -4,6 +4,7 @@
 
 .box {
   display: flex;
+  flex-flow: row wrap;
   justify-content: left;
   margin-bottom: 32px;
   gap: 16px;
