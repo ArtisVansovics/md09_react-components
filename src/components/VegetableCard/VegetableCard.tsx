@@ -26,9 +26,13 @@ const VegetableCard:FC<VegetableCardProps> = ({
           className="vegetable-card__info"
           style={{ backgroundColor }}
         >
+          <IdBox id={id} />
           <Heading title={title} />
           <Paragraph description={description} />
-          <IdBox id={id} />
+          <Button clickHandler={() => {
+            console.log(` ${id}`);
+          }}
+          />
         </div>
       )
       : 'Not available'}
